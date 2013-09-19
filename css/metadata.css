@@ -5,7 +5,6 @@
 
 #some-jerk {
 	margin-top: -20px;
-	max-width: 40%;
 	float: left;
 }
 #some-jerk h1 { margin-bottom: 0 !important; }
@@ -31,7 +30,7 @@ img.avatar {
 
 @media screen and (min-width: 400px) {
 	#some-jerk { max-width: 35%; }
-	
+
 	ul {
 		list-style: none;
 		column-count: 1;
@@ -41,6 +40,8 @@ img.avatar {
 }
 
 @media screen and (min-width: 600px) {
+	#some-jerk { max-width: 40%; }
+
 	ul {
 		column-count: 2;
 		-webkit-column-count: 2;
