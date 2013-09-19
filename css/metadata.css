@@ -1,0 +1,27 @@
+.metadata {
+	font-family: 'Bree Serif', serif;
+	min-height: 120px;
+	border-bottom: 1px lightgrey solid;
+}
+
+#some-jerk {
+	margin: -10px 10px;
+	width: 40%;
+	float: left;
+}
+
+img.avatar {
+	padding: 10px;
+	float: left;
+}
+
+.buzzwords {
+	float: right;
+	width: 50%;
+}
+
+ul {
+	column-count: 3;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+}
