@@ -25,3 +25,11 @@ ul {
 	-webkit-column-count: 4;
 	-moz-column-count: 4;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
