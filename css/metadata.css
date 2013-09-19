@@ -1,6 +1,6 @@
 .metadata {
 	font-family: 'Bree Serif', serif;
-	/*min-height: 120px;*/
+	min-height: 120px;
 }
 
 #some-jerk {
@@ -27,6 +27,26 @@ img.avatar {
 	font-family: "Open Sans", sans-serif;
 }
 
+a {
+	font-family: "Open Sans", sans-serif;
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: normal;
+	color: black;
+}
+a:hover {
+	color: #08c;
+}
+
+#storyjs {
+	border-top: 1px lightgrey solid;
+}
+
+img {
+	border: 0px black solid !important;
+}
 
 @media screen and (min-width: 400px) {
 	#some-jerk { max-width: 35%; }
@@ -63,21 +83,4 @@ img.avatar {
 		-webkit-column-count: 4;
 		-moz-column-count: 4;
 	}
-}
-
-a {
-	font-family: "Open Sans", sans-serif;
-	color: darkblue;
-	text-decoration: none;
-}
-a:visited {
-	font-weight: normal;
-	color: darkblue;
-}
-a:hover {
-	color: orange;
-}
-
-#timeline-embed {
-	border-top: 1px lightgrey solid;
 }
