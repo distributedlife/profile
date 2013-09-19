@@ -1,40 +1,82 @@
 .metadata {
 	font-family: 'Bree Serif', serif;
-	min-height: 120px;
-	border-bottom: 1px lightgrey solid;
+	/*min-height: 120px;*/
 }
 
 #some-jerk {
-	margin: -10px 10px;
-	width: 40%;
+	margin-top: -20px;
+	max-width: 40%;
+	float: left;
+}
+#some-jerk h1 { margin-bottom: 0 !important; }
+
+img.avatar {
+	padding-right: 10px;
 	float: left;
 }
 
-img.avatar {
-	padding: 10px;
-	float: left;
+.bragging {
+	margin-top: 0;
+	width: 100%;
+	line-height: 1.6em;
 }
 
 .buzzwords {
+	margin-top: -20px;
 	float: right;
-	width: 50%;
+	max-width: 40%;
+	font-family: "Open Sans", sans-serif;
 }
 
-ul {
-	column-count: 4;
-	-webkit-column-count: 4;
-	-moz-column-count: 4;
+
+@media screen and (min-width: 400px) {
+	#some-jerk { max-width: 35%; }
+	
+	ul {
+		list-style: none;
+		column-count: 1;
+		-webkit-column-count: 1;
+		-moz-column-count: 1;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	ul {
+		column-count: 2;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	ul {
+		column-count: 3;
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	ul {
+		column-count: 4;
+		-webkit-column-count: 4;
+		-moz-column-count: 4;
+	}
 }
 
 a {
-	font-weight: normal;
-	color: orange;
+	font-family: "Open Sans", sans-serif;
+	color: darkblue;
 	text-decoration: none;
 }
 a:visited {
-	color: orange;
+	font-weight: normal;
+	color: darkblue;
 }
 a:hover {
-	color: lightgrey;
-	/*text-decoration: underline;*/
+	color: orange;
+}
+
+#timeline-embed {
+	border-top: 1px lightgrey solid;
 }
